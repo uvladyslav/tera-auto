@@ -9,7 +9,7 @@ async function getPic() {
 
     const browser = await puppeteer.launch({headless: false,  args: ['--start-fullscreen']});
     const page = await browser.newPage();
-//    await page.goto('https://core-qa3.teradek.com', {
+//    await page.goto('', {
 //	waitUntil: 'networkidle2'
 //});
     await page.goto('https://core-qa3.teradek.com');
