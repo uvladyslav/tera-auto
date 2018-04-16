@@ -1,8 +1,8 @@
 const puppeteer = require('puppeteer');
 var config = {};
 
-config.login = 'admin@teradek.com';
-config.pass = '1111';
+config.login = '';
+config.pass = '';
 
 
 async function getPic() {
