@@ -12,7 +12,7 @@ async function getPic() {
 //    await page.goto('', {
 //	waitUntil: 'networkidle2'
 //});
-    await page.goto('https://core-qa3.teradek.com');
+    await page.goto('https://123');
     await page.waitForNavigation({waitUntil: 'networkidle2'})
     await page.setViewport({width: 1920, height: 1080}),
     await page.click('#welcome-menu > ul > li:nth-child(4) > a');
